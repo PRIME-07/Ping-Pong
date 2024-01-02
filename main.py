@@ -49,9 +49,9 @@ def handle_paddle_movement(keys, left_paddle, right_paddle):
     if keys[pygame.K_s]:
         left_paddle.move(up=False)
 
-    if keys[pygame.KEYUP]:
+    if keys[pygame.K_UP]:
         right_paddle.move(up=True)
-    if keys[pygame.KEYDOWN]:
+    if keys[pygame.K_DOWN]:
         right_paddle.move(up=False)
 
 
