@@ -11,6 +11,8 @@ FPS = 60
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
+PADDLE_WIDTH, PADDLE_HEIGHT = 20,100
+
 
 class Paddle:
     COLOR = WHITE
@@ -33,6 +35,9 @@ def draw(win):
 def main():
     run = True
     clock = pygame.time.Clock()
+
+    left_paddle = Paddle(10, HEIGHT//2 - PADDLE_HEIGHT//2, PADDLE_WIDTH, PADDLE_HEIGHT)
+    right_paddle = Paddle(WIDTH - 10 - PADDLE_WIDTH, HEIGHT // 2 - PADDLE_HEIGHT // 2, PADDLE_WIDTH, PADDLE_HEIGHT)
 
     while run:
         clock.tick(FPS)
