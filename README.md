@@ -1,7 +1,7 @@
 # Ping-Pong Game Documentation
 
 ## Introduction
-This documentation provides an overview of the Ping-Pong game implemented in Python using the Pygame library. The game consists of two paddles and a ball that moves between them. The objective is to score points by hitting the ball past the opponent's paddle.
+This documentation provides an overview of the Ping-Pong game implemented in Python using the Pygame library. The game consists of two paddles and a ball that moves between them. The objective is to score points by hitting the ball past the opponent's paddle. Use <kbd>W</kbd> and <kbd>S</kbd> keys to control the left paddle and use <kbd>↑</kbd> and <kbd>↓</kbd> keys to move right paddle.
 
 ## Table of Contents
 1. [Game Components](#game-components)
